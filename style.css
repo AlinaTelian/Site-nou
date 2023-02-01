@@ -1,0 +1,70 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-style: 'Open Sans', sans-serif;
+    background: #222;
+    text-align: center;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Weather-Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+   background: #000000d0;
+   color: white;
+   padding: 2em;
+   border-radius: 30px;
+   width: 100%;
+   max-width: 420px;
+   margin: 3em;
+   text-align: center;
+   opacity:65%;
+}
+
+.search {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height:38px;
+    width: 38px;
+    outline: none;
+    background: #393838;
+    cursor: pointer;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #393838;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 120px);
+}
+
+button:hover {
+    background: #908f8f;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+    
+}
